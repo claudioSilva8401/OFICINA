@@ -1,0 +1,147 @@
+/*Universais */
+body{
+    padding-top: 65px;
+    font-family: 'Roboto', sans-serif;
+    background:white;
+    color: black;
+}
+img{
+    width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+/*Fonts*/
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Teko', sans-serif;
+    color: #061A40;
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 35px;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+/*menu*/
+.topo-fundo{
+    margin: 0;
+    padding: 0;
+}
+.topo{
+    background: #B9D6F2;
+}
+.logo{
+    width: 60%;
+    max-width: 220px;
+    max-height: 100px;
+}
+.links{
+    color: #061A40;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+}
+/*home*/
+.banner{
+    padding-top: 15px;
+}
+.home{
+    margin: 0;
+}
+.gif-home{
+    width: 100px;
+    margin: auto;
+}
+.sobre{
+    padding: 20px;
+    text-align: center;
+}
+.caixa{
+    background:#6fbbd3;
+    padding: 5px;
+    text-align: justify;
+}
+.localiza{
+    padding: 20px;
+    text-align: center;
+}
+.map{
+    width: 95%;
+    aspect-ratio: 7/4;
+}
+/*servicos*/
+.confira{
+    color: white;
+    text-decoration: none;
+}
+.serv-bot-icon{
+    width: 50%;
+    padding: 10%;
+    margin: auto;
+    text-align: center;
+    aspect-ratio: 1/1;
+    background: #6fbbd3;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.serv-icon{
+width: 100%;
+vertical-align: middle;
+color: black;
+}
+.serv-box{
+    margin-top: 10px;
+    border: solid 1px black;
+    border-top: solid 5px #061A40;
+    text-align: center;
+    padding: 10px;
+}
+/*contato*/
+.contact-label{
+    width: 100%;
+    margin-bottom: 8px;
+    
+}
+.input-lg{
+    width: 100%;
+    margin-bottom: 8px; 
+}
+
+.cadastro{
+    width: 500px;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #f5f5f5;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    text-align: justify;
+    display: block;
+}
+.enviar{
+    padding: 10px;
+    margin: 5px;
+    display: block;
+    margin: auto;
+}
+/*menu e abas dos paineis */
+.menu_painel{
+    margin: auto;
+    width: 95%;
+}
+.abas_tab{
+    color: black;
+    font-family: 'Teko', sans-serif;
+}
+.abas{
+    display: none;
+}
+.abas:target{
+    display: block;
+}
